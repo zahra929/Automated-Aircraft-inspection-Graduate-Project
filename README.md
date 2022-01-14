@@ -1,4 +1,4 @@
-# Computer Vision Graduate projec
+# Computer Vision graduate project
 
 In this work, we used U-Net architecture to automatically detect aircraft dents. U-Net is a convolutional network architecture used for fast and accurate image segmentation. It is symmetric in the form of a U, which consists of a contraction path (down sampling) to capture the context and a symmetrical up sampling path that allows precise localization.
 We tried to improve and evaluate prediction performance of this model by applying different techniques: 
