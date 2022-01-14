@@ -1,4 +1,5 @@
-# Computer Vision Graduate project
+# Computer Vision Graduate projec
+
 In this work, we used U-Net architecture to automatically detect aircraft dents. U-Net is a convolutional network architecture used for fast and accurate image segmentation. It is symmetric in the form of a U, which consists of a contraction path (down sampling) to capture the context and a symmetrical up sampling path that allows precise localization.
 We tried to improve and evaluate prediction performance of this model by applying different techniques: 
 
@@ -8,6 +9,7 @@ We tried to improve and evaluate prediction performance of this model by applyin
 
 
 #References 
+
 [1] Anil Dogru, Soufiane Bouarfa, Ridwan Arizar, and Reyhan Aydo (2020) “Using convolutional neural Networks to automate aircraft maintenance visual inspection”
 
 -[2] Bouarfa, S., Doğru, A., Arizar, R., Aydoğan, R., & Serafico, J. (2020). Towards automated aircraft maintenance inspection. A use case of detecting aircraft dents using mask r-cnn. In AIAA Scitech 2020 Forum [AIAA 2020-0389] (AIAA Scitech 2020 Forum; Vol. 1 Part). American Institute of Aeronautics and Astronautics Inc. (AIAA). https://doi.org/10.2514/6.2020-0389
