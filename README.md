@@ -4,9 +4,17 @@ In this work, we used U-Net architecture to automatically detect aircraft dents.
 We tried to improve and evaluate prediction performance of this model by applying different techniques: 
 
 -Using conventional data augmentation technique flipping, rotation and clipping to improve the models performances and testing GAN’s performance in data augmentation with small dataset.
--Using a Pre-trained VGG-16 model with ImageNet Dataset as a backbone of our model. VGG-16 was chosen based on its stronger fitting ability, its simpler calculation and nonlinear optimization make it better as the backbone of our semantic segmentation models.
--Exploring various modified U-Net architecture such as Attention U-Net, which uses Attention gate AG that implicitly learns how to remove irrelevant regions in an input image while highlighting the main features useful for a specific task [4], and TransU-Net which uses a hybrid CNN-Transformer structure to use detailed high-resolution spatial information from CNN functionality and the global context encoded by Transformer (ViT).
+-Using a Pre-trained VGG-16 model with ImageNet Dataset as a backbone of U-NET:
+-Exploring various modified U-Net architecture such as Attention U-Net and TransU-Net which uses a hybrid CNN-Transformer structure to use detailed high-resolution spatial information from CNN functionality and the global context encoded by Transformer (ViT).
+- Explore the effect of data augmentation on every architecture : 
+-
 
+#About Files :
+
+For each model there is two versions : 
+   -The first trained without data augmentation and 
+   -The second one was augmented using a selected combination of augmentations techniques
+The file Data augmentation contains the code applying the augmentation techniques.
 
 #References 
 
